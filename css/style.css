@@ -1,0 +1,126 @@
+:root {
+  --main-color: #757575;
+  --secondary-color: #212121;
+  --accent-color: #2196f3;
+  --primary-font: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+ul {
+  list-style: none;
+}
+/* .address {
+  font-style: normal; */
+}
+
+/* ================= HEADER ================== */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.navigation-link .header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus,
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  color: var(--main-color);
+}
+
+/* ================= END HEADER ================== */
+
+/* ================= HERO ================== */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.modal-btn {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* ================= END HERO ================== */
+
+/* ================= ABOUT ================== */
+.about {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.about-title {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.about-text {
+  font-weight: normal;
+  line-height: 1.71;
+  color: var(--main-color);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+/* ================= END ABOUT ================== */
+
+/* ================= TEAM ================== */
+.team-list {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-list-title {
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.team-list-text {
+  font-weight: 400;
+  color: var(--main-color);
+}
+/* ================= END TEAM ================== */
+
+/* ================= FOOTER ================== */
