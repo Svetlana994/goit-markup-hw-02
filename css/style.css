@@ -132,7 +132,8 @@ ul {
 /* ================= END TEAM ================== */
 
 /* ================= FOOTER ================== */
-.footer-list-link {
+.footer-list-link,
+.footer-list-item-link {
   text-decoration: none;
 }
 
@@ -161,14 +162,13 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.footer-list-address {
-  color: #ffffff;
-}
-
-.footer-list-item {
+.footer-list-item-link {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-list-link {
+  color: #ffffff;
+}
 /* ================= END FOOTER ================== */
 
 /* ================= PORTFOLIO ================== */
