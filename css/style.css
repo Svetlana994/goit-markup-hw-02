@@ -3,6 +3,7 @@
   --secondary-color: #212121;
   --accent-color: #2196f3;
   --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 }
 
 body {
@@ -12,30 +13,37 @@ body {
 ul {
   list-style: none;
 }
-/* .address {
-  font-style: normal; */
-}
 
 /* ================= HEADER ================== */
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
 }
 
 .logo-accent {
   color: var(--accent-color);
 }
+.address {
+  font-style: normal;
+}
 
-.navigation-link .header-contacts {
+.logo-nav {
+  color: #000000;
+}
+
+.navigation-link,
+.header-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  text-decoration: none;
 }
 
 .navigation-link:hover,
@@ -124,3 +132,87 @@ ul {
 /* ================= END TEAM ================== */
 
 /* ================= FOOTER ================== */
+.footer-list-link {
+  text-decoration: none;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.footer-logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer-list-address {
+  color: #ffffff;
+}
+
+.footer-list-item {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ================= END FOOTER ================== */
+
+/* ================= PORTFOLIO ================== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.portfolio-list-item-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font);
+}
+
+.portfolio-list-item-btn:hover,
+.portfolio-list-item-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-font);
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
